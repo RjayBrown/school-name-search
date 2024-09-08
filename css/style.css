@@ -1,0 +1,139 @@
+/*******************************************/
+/*              BASE STYLES                */
+/*******************************************/
+
+* {
+  box-sizing: border-box;
+  /* border: 5px solid black */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 100%;
+  font-size: 1.6rem;
+  padding: 150px 0 100px 0;
+
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  /* color: white; */
+  position: relative;
+}
+
+/*******************************************/
+/*              TOGGLE STYLES              */
+/*******************************************/
+
+.hidden {
+  display: none;
+}
+
+/*******************************************/
+/*          WRAPPER | CONTAINERS           */
+/*******************************************/
+
+.container {
+  display: flex;
+  flex-flow: wrap;
+  place-content: center space-evenly;
+  /* border: 3px solid black; */
+}
+
+.container.col {
+  flex-flow: column wrap;
+}
+
+main {
+}
+
+
+section {
+}
+
+/*******************************************/
+/*        HEADER | NAV | FOOTER            */
+/*******************************************/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  box-shadow: 2px 2px 3px 2px rgb(81, 81, 81);
+  z-index: 100;
+  background-color: white;
+}
+
+nav {
+}
+
+footer {
+}
+
+/*******************************************/
+/*             INPUT | BUTTONS             */
+/*******************************************/
+
+input, button {
+  margin-bottom: 25px;
+}
+
+input {
+  padding: 2px;
+}
+
+button {
+  cursor: pointer;
+  background-color: white;
+  /* color: white; */
+  padding: 3px;
+  border: 1px solid rgb(81, 81, 81);
+  border-radius: 3px;
+  transition: background-color 200ms
+}
+
+button:hover {
+  /* border:  */
+  background-color: rgb(240, 240, 240)
+}
+
+button:active {
+  /* border:  */
+  background-color: rgb(220, 220, 220)
+}
+
+
+/*******************************************/
+/*               MAIN CONTENT              */
+/*******************************************/
+
+.results {
+  color: black;
+  list-style: none;
+  width: 50%;
+  margin: auto;
+}
+
+.results li {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 3px 2px rgb(81, 81, 81);
+  transition: box-shadow 200ms
+  /* border: 3px solid black; */
+}
+
+.results a {
+  text-decoration: none;
+  color: black;
+}
+
+.results li:hover {
+  box-shadow: 3px 3px 4px 3px rgb(56, 56, 56);
+}
+
+.results li:active {
+  box-shadow: 2px 2px 3px 2px rgb(81, 81, 81);
+}
