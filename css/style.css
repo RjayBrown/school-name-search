@@ -4,7 +4,6 @@
 
 * {
   box-sizing: border-box;
-  /* border: 5px solid black */
 }
 
 html {
@@ -18,7 +17,6 @@ body {
 
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  /* color: white; */
   position: relative;
 }
 
@@ -38,7 +36,6 @@ body {
   display: flex;
   flex-flow: wrap;
   place-content: center space-evenly;
-  /* border: 3px solid black; */
 }
 
 .container.col {
@@ -88,7 +85,6 @@ input {
 button {
   cursor: pointer;
   background-color: white;
-  /* color: white; */
   padding: 3px;
   border: 1px solid rgb(81, 81, 81);
   border-radius: 3px;
@@ -96,12 +92,10 @@ button {
 }
 
 button:hover {
-  /* border:  */
   background-color: rgb(240, 240, 240)
 }
 
 button:active {
-  /* border:  */
   background-color: rgb(220, 220, 220)
 }
 
@@ -123,7 +117,6 @@ button:active {
   padding: 10px;
   box-shadow: 2px 2px 3px 2px rgb(81, 81, 81);
   transition: box-shadow 200ms
-  /* border: 3px solid black; */
 }
 
 /* .results a {
