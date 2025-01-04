@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Find general information about any college or university in the U.S.">
+	<meta name="keywords" content="college university tuition">
+
+	<title>SchoolFinder | Home</title>
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+
+	<!-- Linking CSS File -->
+	<!--
+	CSS & BROWSER DEFAULTS
+	----------------------
+
+	All browsers have default styles for HTML elements and they may be different, which can cause inconsistencies in how the webpage is displayed. Normalizing or resetting the styles is a popular practice to ensure that webpages display the same across different browsers. You can review the 'normalize.css' and 'reset.css' files in the CSS folder and use the stylesheet you prefer for your mini project.
+
+	The cascade still applies and CSS files for resetting or normalizing styles should be linked before your stylesheet.
+	-->
+	<link rel="stylesheet" href="../css/normalize.css">
+
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body id="home-page">
+	<main class="main-container">
+		<section class="title-container">
+			</div>
+			<div class="big-text">
+				<h1>SchoolFinder</h1>
+				<div class="search">
+					<label for="search"></label>
+					<input type="text" name="search" placeholder="Enter School Name">
+					<button class="top-search-btn">Search</button>
+					<button class="clear">Clear</button>
+				</div>
+				<a class="results-link" href="./results.html">Find More Schools</a>
+				<section class="top-three-container hidden">
+					<h2>Top 3 Results</h2>
+					<ul class="results"></ul>
+					<a href="./results.html" class="more">Find More Schools</a>
+				</section>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<h1>Footer</h1>
+	</footer>
+
+	<script type="text/javascript" src="../js/main.js"></script>
+</body>
+
+</html>
